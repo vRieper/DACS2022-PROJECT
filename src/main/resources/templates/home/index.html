@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head th:include="layout :: htmlhead"></head>
+
+<body>
+    <nav th:replace="layout :: menu">(menu)</nav>
+
+    <div class="container">
+        <i class="bi bi-alarm-fill"></i>
+        <h1 class="text-center">Home Page </h1>
+     <div display="flex"> 
+        <img class="seg" src="https://img.freepik.com/vetores-gratis/ilustracao-de-pessoas-com-um-coracao-saudavel_53876-37157.jpg?t=st=1657749573~exp=1657750173~hmac=6e35cb0184ed8d09277ff885ff640f64c8423d5c04805c884af89d263dbf92fb&w=740">
+    </div>
+
+
+
+    <div th:include="layout :: footer">(footer)</div>
+</body>
+
+</html>
